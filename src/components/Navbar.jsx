@@ -7,7 +7,7 @@ const Navbar = () => {
         setNav(!nav)
     }
   return (
-    <div className=' h-18 max-w-[1024px] mx-auto text-white flex justify-between items-center p-5 z-50'>
+    <div className=' h-18 max-w-[1240px] mx-auto text-white flex justify-between items-center p-5 z-50'>
     <h1 className='font-extrabold  text-2xl text-[#00df9a] w-100'>REACT.</h1>
     <ul className='hidden md:flex cursor-pointer'>
         <li className='p-2 m-1'>Home</li>
