@@ -12,8 +12,10 @@ const Hero = () => {
              <ReactTyped strings={["BTB","BTC","SaaS"]} typeSpeed={140} backSpeed={150} className='text-[#00df9a]' loop/>
         </div>
         <p className='text-sm sm:text-md md:text-[16px] max-w-[350px] md:max-w-full font-medium opacity-60'>Monitor your data analytics to increase revenue for BTC, BTB & SaaS platforms</p>
-
-        <button className='bg-[#00df9a] text-[#000f00] font-semibold p-2 rounded-lg'>Get Started</button>
+ 
+    <button class="font-semibold rounded-lg before:ease relative px-5 py-2 overflow-hidden border border-[#00df9a] bg-[#00df9a] text-[#000f00] shadow-xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-900  hover:before:-translate-x-40">
+      <span relative="relative z-10">Get Started</span>
+    </button>
     </div>
       
     </div>

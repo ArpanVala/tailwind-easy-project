@@ -4,3 +4,10 @@ body {
   background-color: #000300;
   font-family: 'Space Grotesk', sans-serif;
 }
+
+.nav li {
+  @apply border-b-3  border-transparent hover:border-b-3 hover:border-[#00df9a] hover:text-[#00df9a];
+}
+.footer li {
+  @apply border-b-3  border-transparent hover:border-b-1 hover:border-gray-300 hover:text-gray-300;
+}
